@@ -22,7 +22,9 @@ UnscentedKF (path_to_input).txt (path_to_output).txt
 ```
 **NOTE**
 > If you encounter any problems, copy "vcvars32.bat" to build directory and run the command `vcvars32` to set environment variables
+
 > If make command does not work try: `cmake .. -G "Unix Makefiles" && make`
+
 > You can find some sample inputs in 'data/'.
 
 ## Algorithm
