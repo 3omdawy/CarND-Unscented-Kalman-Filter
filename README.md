@@ -2,6 +2,13 @@
 Self-Driving Car Engineer Nanodegree Program
 
 ---
+## Description
+* This is the 2nd project in term 2 of Udacity self-driving cars nano-degree. It implements UKF in C++ to track a bicycle given lidar and radar sensors
+* UKF is an alternative technique to normal or extended KFs. It deals with non-linear process and measurement models … instead of linearizing non-linear equations, it uses sigma points to approximate probability distribution.
+*	Advantages:
+		- Better approximation of non-linear motion
+		- More efficient (no Jacobian matrix calculation)
+
 
 ## Dependencies
 
